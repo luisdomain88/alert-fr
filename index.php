@@ -690,7 +690,7 @@ Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defende
     padding: 5px 10px;
     color: #FFFFFF !important;
     color: #414141;font-weight: bold;
-    margin-top: 8px;">Defender - Advertencia de Deguridad</	p>
+    margin-top: 8px;">Defender - Advertencia de Seguridad</	p>
     <p>** Notificación de protección de red y firewall **</p>
     <p>Su computadora nos ha alertado de que ha sido infectada con un software espía troyano. Los siguientes datos han sido
         comprometida.</p>
