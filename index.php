@@ -133,7 +133,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-4">
                 <div class="logo">
-                    <img src="microsoft.png"><span> Smart Defenderr </span>
+                    <img src="microsoft.png"><span> Smart Defender </span>
                 </div>
             </div>
             <div class="col-md-8">
@@ -233,7 +233,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-4">
                 <div class="logo">
-                    <img src="microsoft.png"><span> Smart Defenderr</span>
+                    <img src="microsoft.png"><span> Smart Defender</span>
                 </div>
             </div>
             <div class="col-md-8">
@@ -482,7 +482,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-4">
                 <div class="logo">
-                    <img src="microsoft.png"><span> Smart Defenderr</span>
+                    <img src="microsoft.png"><span> Smart Defender</span>
                 </div>
             </div>
             <div class="col-md-8">
@@ -587,14 +587,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="row">
         <div class="col-md-12">
             <div class="right-foot" style="text-align: center;">
-                <span id="footertxt"><img src="microsoft.png"> Smart Defenderr: </span><span
+                <span id="footertxt"><img src="microsoft.png"> Smart Defender: </span><span
                         style="font-weight: 700;padding-left: 13px;color: #fff;">Contacto con soporte técnico <span
                             style="border: 1px solid #fff;border-radius: 5px;padding: 2px 5px;"><script>document.write(phone_number)</script>             (Línea de ayuda de seguridad)</span></span>
             </div>
         </div>
         <div class="col-md-12">
             <marquee width="100%" direction="left" height="100px"><small class="text-left" style="color: #eee;font-size: 18px;">Defender SmartScreen evitó que se indicara una aplicación no reconocida. Ejecutar esta aplicación podría poner tu PC
-                    en riesgo. Smart Defenderr Scan ha encontrado adware potencialmente no deseado en este dispositivo que puede robar
+                    en riesgo. Smart Defender Scan ha encontrado adware potencialmente no deseado en este dispositivo que puede robar
                     sus contraseñas, identidad en línea, información financiera, archivos personales, imágenes o
                     documentos.</small></marquee>
         </div>
@@ -604,7 +604,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="poptxt" class="lightbox">
     <div class="ilb top">
         <div class="headers ilb" style="border-bottom: 1px solid #d6d5d5;">
-            <span id="txtadd" class="fl title"><span class="fl ilb"><img src="def.png" class="logo3"></span> Centro de seguridad de Smart Defenderr</span>
+            <span id="txtadd" class="fl title"><span class="fl ilb"><img src="def.png" class="logo3"></span> Centro de seguridad de Smart Defender</span>
             <span id="txts1" class="fl title2"><a href="#"><img src="cross.png"></a></span>
         </div>
     </div>
