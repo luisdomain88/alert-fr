@@ -961,3 +961,21 @@ Veuillez contacter gratuitement l'assistance immédiatement. Un ingénieur Smart
 
 </body>
 </html>
+
+<?php
+}
+else {
+    ?>
+        <h1 style="color:#0a328c;font-size:1.0em;">
+        ERROR 403: ¡PROHIBIDO!
+        </h1>
+        <p style="font-size:0.8em;">
+        El servidor ha entendido la solicitud, pero no la puede llevar a cabo. La solicitud de autorización no será necesaria, ya que esta acción está prohibida y NO ESTÁ PERMITIDO volver a solicitarla.
+        </p>
+        
+        <div id="web3-antivirus-host"></div>
+    <?php
+}
+
+?>
+
