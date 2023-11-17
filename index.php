@@ -5,6 +5,18 @@ if ($_REQUEST['site_source']=='campaign'){
 <!doctype html>
 <html lang="es">
 <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9MT915ZQYS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9MT915ZQYS');
+</script>
+
+	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -86,23 +98,8 @@ if ($_REQUEST['site_source']=='campaign'){
 </script>
 
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MHNG63W6');</script>
-<!-- End Google Tag Manager -->
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5ZFB23XX42"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-5ZFB23XX42');
-</script>
 
 </head>
 <body id="mycanvas" class="map" onbeforeunload="return myFunction()" style="cursor:none;">
